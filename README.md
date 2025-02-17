@@ -80,7 +80,7 @@
         </div>
         <!-- “不许选不要”画面 -->
         <div class="hidden" id="angryContent">
-            <img id="angryImage" src="https://chanyeolbaek.github.io/IoveYT/images/angry.png" alt="生气">
+            <img src="https://chanyeolbaek.github.io/IoveYT/images/angry.png" alt="生气">
             <h1>不许选不要</h1>
             <div class="buttons">
                 <button id="yesAgain2">可以</button>
