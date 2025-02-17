@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
@@ -72,7 +71,7 @@
         <!-- “不要”后的震惊画面 -->
         <div class="hidden" id="shockedContent">
             <img src="https://chanyeolbaek.github.io/IoveYT/images/shocked.png" alt="震惊">
-            <h1>？你认真的吗...</h1>
+            <h1 id="shockedText">？你认真的吗...</h1>
             <div class="buttons">
                 <button id="yesAgain">可以</button>
                 <button id="noAgain">不要</button>
@@ -81,7 +80,7 @@
         <!-- “不许选不要”画面 -->
         <div class="hidden" id="angryContent">
             <img src="https://chanyeolbaek.github.io/IoveYT/images/angry.png" alt="生气">
-            <h1>不许选不要</h1>
+            <h1 id="angryText">不许选不要</h1>
             <div class="buttons">
                 <button id="yesAgain2">可以</button>
                 <button id="noAgain2">不要</button>
@@ -98,7 +97,6 @@
     </div>
 
     <script>
-        // JavaScript代码
         const yesButton = document.getElementById('yes');
         const noButton = document.getElementById('no');
         const newContent = document.getElementById('newContent');
