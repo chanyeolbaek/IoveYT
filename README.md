@@ -57,7 +57,7 @@
 </head>
 <body>
     <div class="container">
-        <img id="mainImage" src="images/heart.png" alt="爱心">
+        <img src="https://chanyeolbaek.github.io/IoveYT/images/heart.png" alt="爱心">
         <h1 id="mainText">可以和我和好吗？</h1>
         <div class="buttons">
             <button id="yes">可以</button>
@@ -65,12 +65,12 @@
         </div>
         <!-- 新内容 -->
         <div class="hidden" id="newContent">
-            <img src="images/hug.png" alt="拥抱">
+            <img src="https://chanyeolbaek.github.io/IoveYT/images/hug.png" alt="拥抱">
             <h1>!!!喜欢你!! ( >_< )♡︎</h1>
         </div>
         <!-- “不要”后的震惊画面 -->
         <div class="hidden" id="shockedContent">
-            <img src="images/shocked.png" alt="震惊">
+            <img src="https://chanyeolbaek.github.io/IoveYT/images/shocked.png" alt="震惊">
             <h1 id="shockedText">？你认真的吗...</h1>
             <div class="buttons">
                 <button id="yesAgain">可以</button>
@@ -79,7 +79,7 @@
         </div>
         <!-- “不许选不要”画面 -->
         <div class="hidden" id="angryContent">
-            <img id="angryImage" src="images/angry.png" alt="生气">
+             <img src="https://chanyeolbaek.github.io/IoveYT/images/angry.png" alt="生气">
             <h1 id="angryText">不许选不要</h1>
             <div class="buttons">
                 <button id="yesAgain2">可以</button>
@@ -88,7 +88,7 @@
         </div>
         <!-- “你只能和我和好”画面 -->
         <div class="hidden" id="cryingContent">
-            <img src="images/crying.png" alt="哭泣">
+             <img src="https://chanyeolbaek.github.io/IoveYT/images/crying.png" alt="哭泣">
             <h1>你只能和我和好</h1>
             <div class="buttons">
                 <button id="finalYes">可以</button>
