@@ -59,7 +59,7 @@
 <body>
     <div class="container">
         <img id="mainImage" src="https://chanyeolbaek.github.io/IoveYT/images/heart.png" alt="爱心">
-        <h1>可以和我和好吗？</h1>
+        <h1 id="mainText">可以和我和好吗？</h1>
         <div class="buttons">
             <button id="yes">可以</button>
             <button id="no">不要</button>
@@ -98,6 +98,7 @@
     </div>
 
     <script>
+        // JavaScript代码
         const yesButton = document.getElementById('yes');
         const noButton = document.getElementById('no');
         const newContent = document.getElementById('newContent');
